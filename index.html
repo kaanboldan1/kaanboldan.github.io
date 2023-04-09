@@ -67,11 +67,11 @@
     <script type="text/javascript">
   		$(function () {
   			var holiday = new Date();
-  		var holiday1 = new Date("{{site.utc}}");
+  		var holiday1 = new Date("2022-04-14");
 	let denemeStr="{{site.utc}}";
 	denemeStr=denemeStr.replace("4 ", "4T");
 			var actiondate = new Date(denemeStr);
-  			$('#defaultCountdown').countdown({until: actiondate});
+  			$('#defaultCountdown').countdown({until: holiday1});
   			$('#year').text(holiday.getFullYear());
   		});
 		</script>
