@@ -1,4 +1,4 @@
-utc: "2023-04-14T22:15:00 +0300" #Required. The start time of the event. Best to use UTC format, but may work in other date formats too.
+utc: "2023-04-14 22:15:00 +0300" #Required. The start time of the event. Best to use UTC format, but may work in other date formats too.
 name: "ABO - GANNUS BULUSMASI" #Required. The human-readable name of the event
 logo: logo.png #Required. logo for the event. replace this logo in the project or add a new file and change the value of this variable
 description: "My event will be so awesome. Check this
