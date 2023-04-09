@@ -68,7 +68,7 @@
   		$(function () {
   			var holiday = new Date();
   			holiday = new Date("{{site.utc}}");
-var timeLeft = timeDiffCalc(new Date(holiday), new Date()); 
+			var timeLeft = timeDiffCalc(new Date(holiday), new Date()); 
   			$('#defaultCountdown').countdown({until: timeLeft});
   			$('#year').text(holiday.getFullYear());
   		});
