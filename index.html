@@ -68,7 +68,7 @@
   		$(function () {
   			var holiday = new Date();
   		var holiday1 = new Date("{{site.utc}}");
-	var denemeStr={{site.utc}}
+	let denemeStr={{site.utc}}
 			var actiondate = new Date(denemeStr.replace(" ", "T"));
   			$('#defaultCountdown').countdown({until: actiondate});
   			$('#year').text(holiday.getFullYear());
